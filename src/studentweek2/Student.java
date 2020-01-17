@@ -14,13 +14,15 @@ public class Student
 {
     private String name;
     private String studentID;
+    private String program;
 
     /**
      * A constructor that takes in both parameters
      * @param givenName - the student's name
      * @param givenID - the student's ID
+     * @param program - the program the students are in
      */
-    public Student(String givenName, String givenID)
+    public Student(String givenName, String givenID, String program)
     {
         name = givenName;
         studentID = givenID;
