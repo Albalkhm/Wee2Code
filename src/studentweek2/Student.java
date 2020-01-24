@@ -22,6 +22,7 @@ public class Student
      * @param givenID - the student's ID
      * @param program - the program the students are in
      * If you see this message that means that I did edit it on Jan 24th, 2020
+     * I do not know what I am doing
      */
     public Student(String givenName, String givenID, String program)
     {
