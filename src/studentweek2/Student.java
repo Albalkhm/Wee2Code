@@ -9,12 +9,13 @@ package ca.sheridancollege.softwarefundamentals.week1;
  * A class to model students. Students can 
  * study. They have a name and an ID.
  * @author dancye, 2020
+ * Last edited by Mohammad Al Balkhi on March 4th, 2020
  */
 public class Student 
 {
     private String name;
     private String studentID;
-    private String program;
+    
 
     /**
      * A constructor that takes in both parameters
@@ -51,7 +52,8 @@ public class Student
     }
 
     /**
-     * @param studentID the studentID to set
+     * 
+     * @param studentID is the name to set
      */
     public void setStudentID(String studentID) {
         this.studentID = studentID;
